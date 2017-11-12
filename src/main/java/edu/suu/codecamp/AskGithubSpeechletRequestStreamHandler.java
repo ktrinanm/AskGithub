@@ -1,4 +1,4 @@
-package edu.suu.codecamp17
+package edu.suu.codecamp;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -15,10 +15,10 @@ import com.amazon.speech.speechlet.lambda.SpeechletRequestStreamHandler;
 public final class AskGithubSpeechletRequestStreamHandler extends
 	SpeechletRequestStreamHandler 
 {
-	private static final Set<String> supportApplicationIds = new HashSet<String>();
+	private static final Set<String> supportedApplicationIds = new HashSet<String>();
 	static 
 	{
-		supportedApplicationIds.add("[]");
+		supportedApplicationIds.add("amzn1.ask.skill.b13b6a1c-b650-4949-9b9f-a79222f35191");
 	}
 
 	public AskGithubSpeechletRequestStreamHandler() 
