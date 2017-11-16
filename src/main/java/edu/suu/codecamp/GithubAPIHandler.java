@@ -14,7 +14,7 @@ import javax.json.*;
  */
 public class GithubAPIHandler
 {
-    static String oAuthToken = new String("d558a414ddf057cb330af3daed7b7144410c446a");
+    static String oAuthToken = new String("sample_access_token");
     String userName;
     String repoName;
     String pullReqName;

@@ -25,6 +25,11 @@ public class AskGithubSpeechlet implements SpeechletV2
 {
 	private static final Logger log = LoggerFactory.getLogger (AskGithubSpeechlet.class);
 
+	public static void main(String[] args)
+	{
+		
+	}
+
 	@Override
 	public void onSessionStarted(SpeechletRequestEnvelope<SessionStartedRequest> 
 			requestEnvelope)
